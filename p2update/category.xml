@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Utils4MWE for PizzaFactory" url="http://pizzafactory.github.io/utils4mwe/update/">
+      Utility components used for MWE/MWE2
+   </description>
+   <feature url="features/jp.pizzafactory.mwe_0.0.1.qualifier.jar" id="jp.pizzafactory.mwe" version="0.0.1.qualifier">
+      <category name="Utils for MWE"/>
+   </feature>
+   <category-def name="Utils for MWE" label="Utils for MWE"/>
+</site>
