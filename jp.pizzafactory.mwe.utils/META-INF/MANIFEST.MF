@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: MWE2 Utils used for PizzaFactory
+Bundle-SymbolicName: jp.pizzafactory.mwe.utils
+Bundle-Version: 0.0.1.qualifier
+Bundle-Activator: jp.pizzafactory.mwe.utils.internal.Activator
+Bundle-Vendor: PizzaFactory Project.
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.emf.codegen,
+ org.eclipse.emf.mwe.core;bundle-version="1.3.13",
+ org.eclipse.jdt.core;bundle-version="3.10.2",
+ org.eclipse.core.resources;bundle-version="3.9.1",
+ org.eclipse.text;bundle-version="3.5.300"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: jp.pizzafactory.mwe.utils
