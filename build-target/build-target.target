@@ -33,10 +33,6 @@
 <repository location="http://download.eclipse.org/releases/luna/"/>
 </location>
 <location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
-<unit id="jp.pizzafactory.a_rte.orbit.feature.group" version="1.0.1.201411160835"/>
-<repository location="http://pizzafactory.github.io/a_rte.orbit/"/>
-</location>
-<location includeAllPlatforms="true" includeConfigurePhase="false" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.jdt.feature.group" version="3.10.1.v20150204-1700"/>
 <repository location="http://download.eclipse.org/releases/luna/"/>
 </location>
