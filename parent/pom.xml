@@ -92,7 +92,7 @@
 				<artifactId>tycho-p2-repository-plugin</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
-					<includeAllDependencies>true</includeAllDependencies>
+					<includeAllDependencies>false</includeAllDependencies>
 				</configuration>
 			</plugin>
 			<!-- Testing -->
@@ -124,9 +124,8 @@
 				<configuration>
 					<message>Maven artifacts for ${project.version}</message>
 					<noJekyll>true</noJekyll>
-					<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
 					<branch>refs/heads/gh-pages</branch>
-					<repositoryName>a_rtegen</repositoryName>
+					<repositoryName>utils4mwe</repositoryName>
 					<repositoryOwner>PizzaFactory</repositoryOwner>
 					<merge>true</merge>
 				</configuration>
@@ -136,6 +135,7 @@
 					<execution>
 						<id>m2repo</id>
 						<configuration>
+							<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
 							<includes>
 								<include>**/*</include>
 							</includes>

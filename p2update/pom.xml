@@ -21,7 +21,6 @@
         <configuration>
           <message>p2 repository for ${project.version}</message>
           <noJekyll>true</noJekyll>
-          <outputDirectory>${project.build.directory}/repository</outputDirectory>
           <branch>refs/heads/gh-pages</branch>
           <repositoryName>utils4mwe</repositoryName>
           <repositoryOwner>PizzaFactory</repositoryOwner>
@@ -32,6 +31,7 @@
           <execution>
             <id>p2repo</id>
             <configuration>
+              <outputDirectory>${project.build.directory}/repository</outputDirectory>
               <includes><include>**/*</include></includes>
               <path>p2repo/${pizzafactory-version}/${qualifiedVersion}</path>
             </configuration>
