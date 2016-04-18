@@ -125,7 +125,7 @@
 					<message>Maven artifacts for ${project.version}</message>
 					<noJekyll>true</noJekyll>
 					<branch>refs/heads/gh-pages</branch>
-					<repositoryName>a_rtegen</repositoryName>
+					<repositoryName>utils4mwe</repositoryName>
 					<repositoryOwner>PizzaFactory</repositoryOwner>
 					<merge>true</merge>
 				</configuration>
@@ -135,6 +135,7 @@
 					<execution>
 						<id>m2repo</id>
 						<configuration>
+							<outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
 							<includes>
 								<include>**/*</include>
 							</includes>
